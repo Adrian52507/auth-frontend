@@ -28,7 +28,7 @@ export default function Dashboard() {
 
   return (
     <main style={{ padding: 24 }}>
-      <h2>Dashboard</h2>
+      <h2 style={{backgroundColor: "white", color: "black"}}>Dashboard</h2>
       {user ? (
         <>
           <p>¡Bienvenido, <b>{user.name}</b>! 🎉</p>
